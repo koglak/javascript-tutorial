@@ -3,6 +3,10 @@ import './App.css';
 import Input from './components/input';
 import { TodosType } from './types/type';
 import Messages from './components/Messages';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 const App:React.FC = () => {
   const [todo, setTodo] = useState<string>("")
   // const [todos, setTodos] = useState<string[]>([])
